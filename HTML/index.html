@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          body, html {
+            height: 100%; /* Ensure the body and html elements take full height */
+            margin: 0; 
+            display: flex; /* Use Flexbox */
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+            background-color: #282c34;
+          }
+      
+          canvas {
+            display: block; /* Remove the inline-block gap issue */
+          }
+          #loginContainer {
+              position: absolute;
+              top: 50px;
+              left: 100px;
+              display: none;
+          }
+          #mainMenuContainer {
+              position: absolute;
+              top: 50px;
+              left: 100px;
+              display: none;
+          }          
+          
+          #lookingForGameText {
+              display: none;
+              color: hsl(44, 67%, 40%);
+          }
+        
+          input {
+              padding: 10px;
+              font-size: 16px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+          }
+        
+          button {
+              padding: 10px 20px;
+              font-size: 16px;
+              margin-left: 10px;
+              background-color: hsl(44, 89%, 57%);
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+        
+          button:hover {
+              background-color: hsl(44, 67%, 40%);
+          }
+      </style>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
+        <script type="module" type="text/javascript" src="./src/main.js"></script>
+        <title>Angry Goblins</title>
+      </head>
+      <div id="loginContainer">
+        <input type="text" id="myInput" placeholder="Enter username" autocomplete="off">
+        <button id="loginButton">Login</button>
+      </div>
+      <div id="mainMenuContainer">
+        <button id="findMatchButton">Find Match</button>
+        <h1 id="lookingForGameText">Looking For Game</h1>
+      </div>
+<html>

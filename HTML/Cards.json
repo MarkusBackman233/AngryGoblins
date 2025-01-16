@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": "angrygoblin",
+      "name": "Angry Goblin",
+      "type": "Monster",
+      "attack": 1,
+      "health": 3,
+      "cost": 1,
+      "image": "Goblin.png",
+      "imageScale": 2.0,
+      "imageOffsetX": 0,
+      "imageOffsetY": -50
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "type": "Monster",
+      "attack": 3,
+      "health": 3,
+      "cost": 1,
+      "image": "Skeleton.png",
+      "imageScale": 1.4,
+      "imageOffsetX": 0,
+      "imageOffsetY": -50
+    },
+    {
+      "id": "cultist",
+      "name": "Cultist",
+      "type": "Monster",
+      "attack": 2,
+      "health": 3,
+      "cost": 1,
+      "image": "Cultist.png",
+      "imageScale": 2.3,
+      "imageOffsetX": 0,
+      "imageOffsetY": -50
+    }
+  ]
+}

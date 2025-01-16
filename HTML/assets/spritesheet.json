@@ -1,0 +1,19 @@
+{
+    "frames": {
+      "frame1.png": {
+        "frame": {"x":0,"y":0,"w":64,"h":64},
+        "sourceSize": {"w":64,"h":64},
+        "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+        "pivot": {"x":0.5,"y":0.5}
+      },
+      "frame2.png": {
+        "frame": {"x":64,"y":0,"w":64,"h":64},
+        "sourceSize": {"w":64,"h":64},
+        "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+        "pivot": {"x":0.5,"y":0.5}
+      }
+    },
+    "animations": {
+      "image_sequence": ["frame1.png", "frame2.png"]
+    }
+  }
